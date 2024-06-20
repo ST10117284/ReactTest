@@ -4,10 +4,10 @@
   justify-content:center; /* Distribute items horizontally */
   align-items: center; /* Maintain vertical centering */
   padding: 1rem;
-  background: linear-gradient(to right, #000000, #676767); /* Black gradient background */
+  background: linear-gradient(to right, #000000, #232323); /* Black gradient background */
   color: #fff; /* Text color white */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* More prominent shadow */
-  font-family: 'Montserrat', sans-serif; /* Modern font with some weight */
+  font-family: 'monospace' sans-serif; /* Modern font with some weight */
   text-shadow: 0 0 2px #cc171e; /* Inner shadow for text glow */
   
 }
@@ -16,7 +16,7 @@
   .navbar-link {
     color: white;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 4rem;
     transition: all 0.3s ease-in-out; /* Smooth transition on hover */
     position: relative; /* Needed for hover effects */
     

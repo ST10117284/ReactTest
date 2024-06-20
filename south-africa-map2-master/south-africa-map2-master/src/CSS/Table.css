@@ -1,57 +1,59 @@
+/* Table.css */
+
 .data-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f5f5f5; /* Light background for container */
-    padding: 2rem; /* Add some padding for spacing */
-    border-radius: 4px; /* Subtle rounded corners for container */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
-  }
-  
-  .data-controls {
-    display: flex; /* Arrange heading and dropdown horizontally */
-    justify-content: space-between; /* Distribute evenly */
-    width: 100%; /* Match container width */
-    margin-bottom: 1rem; /* Add space below controls */
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 1.5rem; /* Increase heading size */
-    margin-bottom: 0.5rem; /* Add some space below heading */
-  }
-  
-  .dropdown {
-    padding: 0.5rem 1rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .data-table {
-    border-collapse: collapse;
-    width: 80%; /* Adjust width as needed */
-    margin: 0 auto;
-    font-family: Arial, sans-serif; /* Set a clean font */
-  }
-  
-  th,
-  td {
-    border: 1px solid #ddd;
-    padding: 0.75rem 1rem; /* Increase padding for readability */
-    text-align: left;
-  }
-  
-  th {
-    background-color: #e0e0e0; /* Distinguish header row */
-    font-weight: bold;
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  /* Optional: Add hover effect for table rows */
-  tbody tr:hover {
-    background-color: #ebeef0; /* Change background color on hover */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Adjust to match table width */
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dropdown {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem; /* Add margin to separate controls and table */
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #d40606; /* Red background for headers */
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #ebeef0;
+}
